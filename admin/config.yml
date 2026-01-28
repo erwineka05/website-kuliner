@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main # Ganti dengan 'master' jika branch utama anda master
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "menu"
+    label: "Daftar Menu"
+    files:
+      - file: "data/menu.json"
+        label: "Menu Makanan & Minuman"
+        name: "menu"
+        fields:
+          - {label: "Makanan Berat", name: "makanan", widget: "list", fields: [{label: "Nama", name: "nama", widget: "string"}, {label: "Harga", name: "harga", widget: "string"}]}
+          - {label: "Minuman", name: "minuman", widget: "list", fields: [{label: "Nama", name: "nama", widget: "string"}, {label: "Harga", name: "harga", widget: "string"}]}
+          - {label: "Snack & Camilan", name: "snack", widget: "list", fields: [{label: "Nama", name: "nama", widget: "string"}, {label: "Harga", name: "harga", widget: "string"}]}
+          - {label: "Nasi Dos (Paket)", name: "nasidos", widget: "list", fields: [{label: "Nama Paket", name: "nama", widget: "string"}, {label: "Harga", name: "harga", widget: "string"}, {label: "Isi Paket", name: "deskripsi", widget: "text"}]}
