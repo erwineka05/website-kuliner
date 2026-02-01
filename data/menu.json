@@ -1,58 +1,284 @@
 {
   "makanan": [
-    { "nama": "Pepes Nila Uk Standar", "harga": "25.000", "foto": "" },
-    { "nama": "Nila Bakar Uk Standar", "harga": "25.000", "foto": "" },
-    { "nama": "Nila Goreng Uk Standar", "harga": "23.000", "foto": "" },
-    { "nama": "Ayam Bakar", "harga": "20.000", "foto": "" },
-    { "nama": "Ayam Goreng Standar", "harga": "18.000", "foto": "" },
-    { "nama": "Ayam Goreng Jumbo", "harga": "30.000", "foto": "" },
-    { "nama": "Pepes Ayam", "harga": "20.000", "foto": "" },
-    { "nama": "Cah Kangkung", "harga": "12.000", "foto": "" },
-    { "nama": "Tahu Touge", "harga": "12.000", "foto": "" },
-    { "nama": "Nasi Putih", "harga": "5.000", "foto": "" }
+    {
+      "nama": "Pepes Nila Uk Standar",
+      "harga": "25.000",
+      "foto": "images/uploads/pepes-nila.jpg"
+    },
+    {
+      "nama": "Nila Bakar Uk Standar",
+      "harga": "25.000",
+      "foto": ""
+    },
+    {
+      "nama": "Nila Goreng Uk Standar",
+      "harga": "23.000",
+      "foto": ""
+    },
+    {
+      "nama": "Ayam Bakar",
+      "harga": "20.000",
+      "foto": ""
+    },
+    {
+      "nama": "Ayam Goreng Standar",
+      "harga": "18.000",
+      "foto": ""
+    },
+    {
+      "nama": "Ayam Goreng Jumbo",
+      "harga": "30.000",
+      "foto": ""
+    },
+    {
+      "nama": "Pepes Ayam",
+      "harga": "20.000",
+      "foto": ""
+    },
+    {
+      "nama": "Cah Kangkung",
+      "harga": "12.000",
+      "foto": ""
+    },
+    {
+      "nama": "Tahu Touge",
+      "harga": "12.000",
+      "foto": ""
+    },
+    {
+      "nama": "Nasi Putih",
+      "harga": "5.000",
+      "foto": ""
+    }
   ],
   "minuman": [
-    { "nama": "Teh Panas", "harga": "5.000", "foto": "" },
-    { "nama": "Jeruk Panas", "harga": "5.000", "foto": "" },
-    { "nama": "Es Teh", "harga": "6.000", "foto": "" },
-    { "nama": "Es Jeruk", "harga": "6.000", "foto": "" },
-    { "nama": "Es Tape", "harga": "7.000", "foto": "" },
-    { "nama": "Es Good Day", "harga": "7.000", "foto": "" },
-    { "nama": "Kopi Hitam", "harga": "7.000", "foto": "" },
-    { "nama": "Jahe Sere", "harga": "7.000", "foto": "" },
-    { "nama": "Es Kapucino Kopi", "harga": "7.000", "foto": "" }
+    {
+      "nama": "Teh Panas",
+      "harga": "5.000",
+      "foto": ""
+    },
+    {
+      "nama": "Jeruk Panas",
+      "harga": "5.000",
+      "foto": ""
+    },
+    {
+      "nama": "Es Teh",
+      "harga": "6.000",
+      "foto": ""
+    },
+    {
+      "nama": "Es Jeruk",
+      "harga": "6.000",
+      "foto": ""
+    },
+    {
+      "nama": "Es Tape",
+      "harga": "7.000",
+      "foto": ""
+    },
+    {
+      "nama": "Es Good Day",
+      "harga": "7.000",
+      "foto": ""
+    },
+    {
+      "nama": "Kopi Hitam",
+      "harga": "7.000",
+      "foto": ""
+    },
+    {
+      "nama": "Jahe Sere",
+      "harga": "7.000",
+      "foto": ""
+    },
+    {
+      "nama": "Es Kapucino Kopi",
+      "harga": "7.000",
+      "foto": ""
+    }
   ],
   "snack": [
-    { "nama": "Mendoan", "harga": "8.000", "kategori": "Camilan", "foto": "" },
-    { "nama": "French Fries", "harga": "12.000", "kategori": "Camilan", "foto": "" },
-    { "nama": "Pisang", "harga": "8.000", "kategori": "Camilan", "foto": "" },
-    { "nama": "Dimsum", "harga": "20.000", "kategori": "Camilan", "foto": "" },
-    { "nama": "Arem-Arem", "harga": "3.000", "kategori": "Gurih", "foto": "" },
-    { "nama": "Lemper Daun", "harga": "3.500", "kategori": "Gurih", "foto": "" },
-    { "nama": "Semar Mendem", "harga": "3.000", "kategori": "Gurih", "foto": "" },
-    { "nama": "Kroket", "harga": "3.000", "kategori": "Gurih", "foto": "" },
-    { "nama": "Risoles Mayo", "harga": "3.000", "kategori": "Gurih", "foto": "" },
-    { "nama": "Risoles", "harga": "3.000", "kategori": "Gurih", "foto": "" },
-    { "nama": "Sosis Solo", "harga": "3.000", "kategori": "Gurih", "foto": "" },
-    { "nama": "Lompia Rebung", "harga": "3.500", "kategori": "Gurih", "foto": "" },
-    { "nama": "Pastel Panggang", "harga": "3.000", "kategori": "Gurih", "foto": "" },
-    { "nama": "Sus Ragut", "harga": "3.500", "kategori": "Gurih", "foto": "" },
-    { "nama": "Dadar Gulung", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Rol Cake", "harga": "3.500", "kategori": "Manis", "foto": "" },
-    { "nama": "Mandarin 3 Warna", "harga": "3.500", "kategori": "Manis", "foto": "" },
-    { "nama": "Mandarin Kuning", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Caramel Cake", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Wajik", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Kue Ku (Moto Kebo)", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Klepon", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Puding Buah", "harga": "3.500", "kategori": "Manis", "foto": "" },
-    { "nama": "Lapis Surabaya", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Naga Sari", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Mendut Daun", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Putri Mandi", "harga": "3.500", "kategori": "Manis", "foto": "" },
-    { "nama": "Pisang Rebus", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Mochi", "harga": "3.000", "kategori": "Manis", "foto": "" },
-    { "nama": "Brownies Kukus", "harga": "4.000", "kategori": "Manis", "foto": "" }
+    {
+      "nama": "Mendoan",
+      "harga": "8.000",
+      "kategori": "Camilan",
+      "foto": ""
+    },
+    {
+      "nama": "French Fries",
+      "harga": "12.000",
+      "kategori": "Camilan",
+      "foto": ""
+    },
+    {
+      "nama": "Pisang",
+      "harga": "8.000",
+      "kategori": "Camilan",
+      "foto": ""
+    },
+    {
+      "nama": "Dimsum",
+      "harga": "20.000",
+      "kategori": "Camilan",
+      "foto": ""
+    },
+    {
+      "nama": "Arem-Arem",
+      "harga": "3.000",
+      "kategori": "Gurih",
+      "foto": ""
+    },
+    {
+      "nama": "Lemper Daun",
+      "harga": "3.500",
+      "kategori": "Gurih",
+      "foto": ""
+    },
+    {
+      "nama": "Semar Mendem",
+      "harga": "3.000",
+      "kategori": "Gurih",
+      "foto": ""
+    },
+    {
+      "nama": "Kroket",
+      "harga": "3.000",
+      "kategori": "Gurih",
+      "foto": ""
+    },
+    {
+      "nama": "Risoles Mayo",
+      "harga": "3.000",
+      "kategori": "Gurih",
+      "foto": ""
+    },
+    {
+      "nama": "Risoles",
+      "harga": "3.000",
+      "kategori": "Gurih",
+      "foto": ""
+    },
+    {
+      "nama": "Sosis Solo",
+      "harga": "3.000",
+      "kategori": "Gurih",
+      "foto": ""
+    },
+    {
+      "nama": "Lompia Rebung",
+      "harga": "3.500",
+      "kategori": "Gurih",
+      "foto": ""
+    },
+    {
+      "nama": "Pastel Panggang",
+      "harga": "3.000",
+      "kategori": "Gurih",
+      "foto": ""
+    },
+    {
+      "nama": "Sus Ragut",
+      "harga": "3.500",
+      "kategori": "Gurih",
+      "foto": ""
+    },
+    {
+      "nama": "Dadar Gulung",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Rol Cake",
+      "harga": "3.500",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Mandarin 3 Warna",
+      "harga": "3.500",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Mandarin Kuning",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Caramel Cake",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Wajik",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Kue Ku (Moto Kebo)",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Klepon",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Puding Buah",
+      "harga": "3.500",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Lapis Surabaya",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Naga Sari",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Mendut Daun",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Putri Mandi",
+      "harga": "3.500",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Pisang Rebus",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Mochi",
+      "harga": "3.000",
+      "kategori": "Manis",
+      "foto": ""
+    },
+    {
+      "nama": "Brownies Kukus",
+      "harga": "4.000",
+      "kategori": "Manis",
+      "foto": ""
+    }
   ],
   "nasidos": [
     {
