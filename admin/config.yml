@@ -1,19 +1,52 @@
 backend:
   name: git-gateway
-  branch: main # Ganti dengan 'master' jika branch utama anda master
+  branch: main # Ganti 'master' jika branch utama Anda master
 
 media_folder: "images/uploads"
-public_folder: "/images/uploads"
+public_folder: "images/uploads"
 
 collections:
   - name: "menu"
     label: "Daftar Menu"
     files:
       - file: "data/menu.json"
-        label: "Menu Makanan & Minuman"
+        label: "Database Menu"
         name: "menu"
         fields:
-          - {label: "Makanan Berat", name: "makanan", widget: "list", fields: [{label: "Nama", name: "nama", widget: "string"}, {label: "Harga", name: "harga", widget: "string"}]}
-          - {label: "Minuman", name: "minuman", widget: "list", fields: [{label: "Nama", name: "nama", widget: "string"}, {label: "Harga", name: "harga", widget: "string"}]}
-          - {label: "Snack & Camilan", name: "snack", widget: "list", fields: [{label: "Nama", name: "nama", widget: "string"}, {label: "Harga", name: "harga", widget: "string"}]}
-          - {label: "Nasi Dos (Paket)", name: "nasidos", widget: "list", fields: [{label: "Nama Paket", name: "nama", widget: "string"}, {label: "Harga", name: "harga", widget: "string"}, {label: "Isi Paket", name: "deskripsi", widget: "text"}]}
+          # --- MAKANAN ---
+          - label: "Makanan Berat"
+            name: "makanan"
+            widget: "list"
+            fields: 
+              - {label: "Nama Menu", name: "nama", widget: "string"}
+              - {label: "Harga", name: "harga", widget: "string"}
+              - {label: "Foto Makanan", name: "foto", widget: "image", required: false}
+
+          # --- MINUMAN ---
+          - label: "Minuman"
+            name: "minuman"
+            widget: "list"
+            fields: 
+              - {label: "Nama Menu", name: "nama", widget: "string"}
+              - {label: "Harga", name: "harga", widget: "string"}
+              - {label: "Foto Minuman", name: "foto", widget: "image", required: false}
+
+          # --- SNACK (Gabungan Camilan Cafe & Snack Box) ---
+          - label: "Snack & Camilan"
+            name: "snack"
+            widget: "list"
+            fields: 
+              - {label: "Nama Snack", name: "nama", widget: "string"}
+              - {label: "Harga", name: "harga", widget: "string"}
+              - {label: "Kategori", name: "kategori", widget: "select", options: ["Camilan", "Gurih", "Manis"]}
+              - {label: "Foto Snack", name: "foto", widget: "image", required: false}
+
+          # --- NASI DOS ---
+          - label: "Nasi Dos (Paket)"
+            name: "nasidos"
+            widget: "list"
+            fields: 
+              - {label: "Nama Paket", name: "nama", widget: "string"}
+              - {label: "Harga", name: "harga", widget: "string"}
+              - {label: "Isi Paket", name: "deskripsi", widget: "text"}
+              - {label: "Foto Paket", name: "foto", widget: "image", required: false}
